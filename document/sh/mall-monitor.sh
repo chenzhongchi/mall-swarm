@@ -12,4 +12,4 @@ docker run -p 8101:8101 --name ${app_name} \
 -v /etc/localtime:/etc/localtime \
 -v /mydata/app/${app_name}/logs:/var/logs \
 -d mall/${app_name}:1.0-SNAPSHOT
-echo '----启动容器----'
+echo '----start container----'
